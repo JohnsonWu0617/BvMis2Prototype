@@ -6,7 +6,7 @@
     <groupId>net.crunchdroid</groupId>
     <artifactId>spring-thymeleaf-template-integration</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>spring-thymeleaf-template-integration</name>
     <description>Demo Spring Thymeleaf Template integration</description>
@@ -102,6 +102,7 @@
     </dependencies>
 
     <build>
+    	<finalName>BvMis2Prototype</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
